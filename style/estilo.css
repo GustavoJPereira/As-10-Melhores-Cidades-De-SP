@@ -1,0 +1,511 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 1.7em;
+    color: #454545;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #454545;
+}
+
+h3 {
+    font-size: 1.6em;
+    color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-size: 1em;
+    color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* CABECALHO */
+
+.cabecalho {
+    background-image: url(../images/fundo-livros.jpg);
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+}
+
+.cabecalho .filtro {
+    padding: 40px 40px 7vw 40px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 70%) 1%, rgba(0, 0, 0, 0%));
+    min-height: 15vw;
+}
+
+/* Logo */
+
+.logo {
+    float: left;
+    width: 130px;
+    margin-right: 4vw;
+    margin-top: 2px;
+}
+
+.logo h1 {
+    color: #FAFFCF;
+    float: right;
+}
+
+.logo i {
+    float: left;
+    color: #FAFFCF;
+    font-size: 1.9em;
+    margin: 2px 10px 0 0;
+}
+
+/* menu */
+
+.menu {
+    float: left;
+    width: 30%;
+    margin-top: 9px;
+}
+
+.menu a {
+    color: #FAFFCF;
+    font-size: 1.2em;
+    margin-right: 10%;
+}
+
+/* Barra-pesquisa */
+
+.barra-pesquisa {
+    float: right;
+}
+
+.barra-pesquisa input,
+.barra-pesquisa button {
+    background-color: #AAFF56;
+    padding: 10px;
+    color: #454545;
+    float: left;
+}
+
+.barra-pesquisa input {
+    width: 300px;
+}
+
+.barra-pesquisa input::placeholder {
+    color: #454545;
+}
+
+/* Título */
+
+.titulo {
+    margin: 15% 0px 40px 0px;
+    width: 50%;
+}
+
+.titulo h2 {
+    max-width: max-content;
+    color: #454545;
+    background-color: #AAFF56;
+    padding: 3px 1px 3px 1px;
+    font-weight: bolder;
+}
+
+.titulo p {
+
+    color: #FAFFCF;
+    margin: 30px 0;
+    font-size: 1.1em;
+}
+
+/* Botão-cabeçalho */
+
+.botao-cabecalho {
+    margin-top: 1%;
+    float: left;
+    color: #FAFFCF;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* PRINCIPAL */
+
+.principal h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.principal h3 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.principal p {
+    color: #000000;
+    font-size: 1.1em;
+}
+
+/* ARTICULAÇÃO BRANCA */
+
+.article-branca {
+    padding: 150px 50px;
+
+}
+
+/* FUNDOS COLORIDOS */
+
+.fundo-cinza {
+    background-color: #cdcdcd;
+}
+
+/* Caixa de texto */
+
+.caixa-texto {
+    width: 50%;
+}
+
+/* Imagens das cidades */
+
+.com-borda {
+    border: 5px solid #78B33D;
+    transition: 0.5s;
+}
+
+.com-borda:hover {
+    border-color: #AAFF56;
+}
+
+/*      A esquerda       */
+
+/* Caixa com o texto */
+.esquerda {
+    float: left;
+}
+
+.esquerda .caixa-texto {
+    float: left;
+}
+
+/* Imagens das cidades */
+
+.esquerda .imagem-local {
+    float: right;
+    width: 30%;
+    min-width: 450px;
+    margin-right: calc(10% - 120px);
+}
+
+/*     A direita      */
+
+/* Caixa com o texto */
+.direita {
+    float: right;
+}
+
+.direita .caixa-texto {
+    float: right;
+}
+
+/* Imagens das cidades */
+
+.direita .imagem-local {
+    float: left;
+    width: 30%;
+    min-width: 450px;
+    margin-left: calc(10% - 120px);
+}
+
+.direita .caixa-texto p {
+    text-align: left;
+}
+
+/* Links Hinos */
+
+.link-hino {
+    color: #000000;
+    font-size: 1.3em;
+    font-weight: bolder;
+    float: right;
+    margin-top: 30px;
+}
+
+.link-hino i {
+    margin: 5px 0 0 4px;
+    float: right;
+}
+
+/* ARTICULAÇÃO VERDE */
+
+.article-verde {
+    width: 100%;
+    float: left;
+    padding: 50px;
+    background-color: #AAFF56;
+    text-align: center;
+}
+
+.article-verde .botao {
+    padding: 10px 100px;
+    font-size: 1.3em;
+    background-color: #000000;
+}
+
+.article-verde .botao a {
+    color: #FAFFCF;
+    font-weight: bolder;
+}
+
+/* Lista */
+
+.lista a {
+    color: #000000;
+    font-size: 2em;
+}
+
+.lista li {
+    margin: auto;
+    max-width: max-content;
+    background-color: #AAFF56;
+    padding: 3px 1px;
+    margin-bottom: 5px;
+}
+
+/* Hino */
+
+.hino {
+    margin: auto;
+    padding: 7px 21px;
+    max-width: max-content;
+    font-size: 1.5em;
+    color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: #AAFF56;
+}
+
+/* VOLTAR AO TOPO */
+
+.voltar-top {
+    display: block;
+    position: fixed;
+    padding: 15px 20px 15px 20px;
+    background-color: rgba(0, 0, 0, 10%);
+    right: 0px;
+    bottom: 0px;
+    margin: 0px 40px 40px 0;
+}
+
+.voltar-top i {
+    color: #FAFFCF;
+    font-size: 2.1em;
+}
+
+/* RODAPÉ  */
+
+.rodape {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    float: left;
+    background-color: #000000;
+    color: #FAFFCF;
+}
+
+/* RESPONSIVIDADE */
+
+/* <600px */
+
+@media screen and (max-width: 790px) {
+    /* CABECALHO */
+
+    .cabecalho {
+        background-color: #454545;
+        float: left;
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    .cabecalho .filtro {
+        float: left;
+    }
+
+    .logo {}
+
+    .logo h1 {}
+
+    .logo i {}
+
+    /* menu */
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu a {
+        margin-right: 20px;
+    }
+
+    /* Barra-pesquisa */
+
+    .barra-pesquisa {
+        float: left;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .barra-pesquisa input {
+        width: calc(100% - 36px);
+    }
+
+    /* Título */
+
+    .titulo {
+        margin: 10px 0px 40px 0px;
+        width: 100%;
+        float: left;
+    }
+
+    .titulo h2 {}
+
+    .titulo p {
+        width: 100%;
+    }
+
+    /* PRINCIPAL */
+
+    .principal h2 {
+        text-align: center;
+    }
+
+    .principal p {
+        font-size: 1em;
+    }
+
+    /* ARTICULAÇÃO BRANCA */
+
+    .article-branca {
+        float: left;
+        padding: 100px 10px;
+    }
+
+    /* Caixa de texto */
+
+    .caixa-texto {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    /* Imagens das cidades */
+
+    /*      A esquerda       */
+
+    /* Caixa com o texto */
+    .esquerda {
+        float: left;
+    }
+
+    .esquerda .caixa-texto {
+        float: left;
+        text-align: justify;
+    }
+
+    /* Imagens das cidades */
+
+    .esquerda .imagem-local {
+        float: left;
+        width: 100%;
+        min-width: 0px;
+        margin: 0px;
+    }
+
+    /*     A direita      */
+
+    /* Caixa com o texto */
+    .direita {
+        float: left;
+    }
+
+    .direita .caixa-texto {
+        float: left;
+    }
+
+    /* Imagens das cidades */
+
+    .direita .imagem-local {
+        float: left;
+        width: 100%;
+        min-width: 0px;
+        margin-left: 0px;
+    }
+
+    .direita .caixa-texto p {
+        text-align: justify;
+    }
+
+    /* Links Hinos */
+
+    .link-hino {
+        float: left;
+        margin-top: 25px;
+    }
+
+    /* ARTICULAÇÃO VERDE */
+
+
+    .article-verde .botao {
+        padding: 10px 10px;
+        font-size: 1.3em;
+
+    }
+
+    /* Hino */
+
+    .hino {
+        float: left;
+        margin: auto;
+        padding: 7px 0px;
+        max-width: max-content;
+        font-size: 1em;
+        color: #454545;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        background-color: #AAFF56;
+    }
+    
+
+    /* VOLTAR AO TOPO */
+
+    .voltar-top {
+        margin: 0px 25px 25px 0;
+    }
+}
